@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta name="description" content="My first website">
+        <meta name="keywords" content="INFO1601, uwi, web">
+        <title>My First Page</title>
+        <meta name="viewport" content="width=device-width,initial-scale=1">
+        <link rel="stylesheet" href="style.css">
+    </head>
+
+    <body>
+        <header>
+            <h1>This is my first website</h1>
+        </header>
+        
+        <article>
+            <section>
+                <h2>Welcome</h2><br>
+            </section>
+
+            <section>
+                <figure>
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcREetvS-w3_k8T3u4A1XwGi7l80q8Tk4mElng&s" alt="a random cat">
+                    <figcaption>Fig 1. A cute random cat</figcaption>
+                </figure>
+
+                <br>
+
+                <figure>
+                    <img src="https://media4.giphy.com/media/z8lO8vYWxfH0ffp3NT/200w.gif?cid=6c09b95285pamlo83wxlml67uthhhgzo7v4zf0h5b6v262eg&ep=v1_gifs_search&rid=200w.gif&ct=g" alt="kitty burger">
+                    <figcaption>Fig 2. A cute kitty burger</figcaption>
+                </figure>
+            </section>
+
+            <br>
+
+            <section>
+                <details>
+                <summary>Hobbies</summary>
+                <ul>
+                    <li>Reading</li>
+                    <li>Coding</li>
+                    <li>Drawing</li>
+                    <li>Listening to Music</li>
+                    <li>Memeing</li>
+                </ul>
+                </details>
+            </section>
+
+            <br><br>
+
+            <dialog id="mydialog">
+                This is a dialog.
+                <a href="javascript:mydialog.removeAttribute('open')">close</a>
+            </dialog>
+
+            <a href="javascript:document.querySelector('#mydialog').setAttribute('open', true)">
+                Open Dialog
+            </a>
+
+            <hr>
+
+            <section>
+                <br>
+                <b>bold</b><br>
+                <strong>Strong text</strong><br>
+                <mark>highlighted text</mark><br>
+                <u>underlined</u><br>
+                <s>strikethrough</s><br>
+                Text<sub>subscript</sub><br>
+                Text<sup>superscript</sup><br><br>
+            </section>
+
+            <hr>
+
+            <section>
+                <br>
+                <code>code</code><br>
+                <samp>Sample output from a computer program</samp><br>
+                <kbd>Keyboard input</kbd><br><br>
+            </section>
+
+            <hr>
+
+            <section>
+                <br>
+                <em>Emphasized text</em><br>
+                <var>variable x</var><br>
+                <cite>citiation</cite><br>
+                <dfn>definition</dfn>
+            </section>
+        </article> 
+
+    </body>
+</html>
